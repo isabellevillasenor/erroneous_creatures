@@ -105,7 +105,7 @@ class CentaurTest < Minitest::Test
     centaur.shoot
 
     assert centaur.cranky?
-
+  
     centaur.lay_down
     centaur.sleep
 
